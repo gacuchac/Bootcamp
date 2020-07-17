@@ -18,6 +18,7 @@ For the outcomes based on goals, a table was created in the *Outcomes Based on G
 
 ### Challenges and Difficulties Encountered
 In the analysis of outcomes based on launch dates one challenge was encountered. When adding the *Date Created Conversion* column to the pivot table rows, it was automatically grouped by year, quartile and month, but the expected value was the short date. The explanation was in the group and ungroup button of the right click's menu.
+
 During the analysis of the goals based outcomes, two challenges were overcome. First, there was some confusion on the criteria_range and criteria combination of the *COUNTIFS* formula. Second, on the pivot chart, the Y-axis was showing the decimal forat of the percentage and it was solved by changing the number format of the value field setting to percentage with two decimals.
 
 ## Results
