@@ -13,7 +13,7 @@ In order to analyse the outcomes based on launch dates, a pivot table was create
 ![](resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-For the outcomes based on goals, a table was created in the *Outcomes Based on Goals*, where the count and percentage of successful, failed and canceled plays are grouped by a goal range. Using the previous information we obtain the following chart:
+For the outcomes based on goals, a table was created in the *Outcomes Based on Goals*, where the count and percentage of successful, failed and canceled plays are grouped by a goal range in USD. It is important to mention that in order for the goal comparison to be consistent, only plays with the same currency can be compared, thus the necessity of adding the currency filter. Using the previous information we obtain the following chart:
 ![](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
@@ -35,9 +35,11 @@ During the analysis of the goals based outcomes, two challenges were overcome. F
 1. Currently it is the year 2020 and the latest information of the dataset is from 2017. Even though a lot of trends discovered could still be ongoing, the credibility of any insight obtained must be taken with skepticism.
 2. As mentioned in the second point, for some goal ranges, there is not enough information to have a clear view of the full picture.
 3. The dataset is missing information on the marketing campaign to promote the shows. It is important to know what was done in order to capture more backers, or how to target backers with a bigger average donation.
-4. In order to compare the success between countries, we need a common currency.
+4. In order to compare the success between countries, a common currency is needed.
+5. It could be very useful to know the demographics of the bakers, age, sex, etc.
 
 ### Other possible tables and/or graphs
 1. When analysing the outcomes based on months, we should consider the rate of successful to failed and canceled fund raising campaigns, similar to what was done on the outcomes based on goals, since a larger number of successfull events does not necessarily mean that it is a better month for fundraising, it means that there were more campaigns.
 2. A very useful chart would be based on the length of the fundraising event. A table similar to the outcome based on goals, but where the ranges are the days of the event's length and the chart should be a bar chart. A line chart gives the sense of continuity, but what we are actually plotting is the rate of successful to failed and canceled events over time length categories.
-3. It would be interesting to investigate the influence that the *blurb* column has on the outcomes. Maybe there is a correlation between key words and outcome. The table's rows would be a dictionary of every word in the *blurb* column and the values would be  the amaunt of times that word appeared in a successful, failed and canceled event. A bar chart of the top ten words would give an interesting view of the importance on the *blurb* column.
+3. Countries could have preferences on the categories, so a Goal based on country could give an important insight in people's preferences.
+4. It would be interesting to investigate the influence that the *blurb* column has on the outcomes. Maybe there is a correlation between key words and outcome. The table's rows would be a dictionary of every word in the *blurb* column and the values would be  the amaunt of times that word appeared in a successful, failed and canceled event. A bar chart of the top ten words would give an interesting view of the importance on the *blurb* column.
