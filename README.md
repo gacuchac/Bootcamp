@@ -36,7 +36,7 @@ During the analysis of the goals based outcomes, two challenges were overcome. F
 2. As mentioned in the second point, for some goal ranges, there is not enough information to have a clear view of the full picture.
 3. The dataset is missing information on the marketing campaign to promote the shows. It is important to know what was done in order to capture more backers, or how to target backers with a bigger average donation.
 4. In order to compare the success between countries, a common currency is needed.
-5. It could be very useful to know the demographics of the bakers, age, sex, etc.
+5. It could be very useful to know the demographics of the backers, age, sex, etc.
 
 ### Other possible tables and/or graphs
 1. When analysing the outcomes based on months, we should consider the rate of successful to failed and canceled fund raising campaigns, similar to what was done on the outcomes based on goals, since a larger number of successfull events does not necessarily mean that it is a better month for fundraising, it means that there were more campaigns.
